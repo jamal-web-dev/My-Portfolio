@@ -63,8 +63,11 @@ header{
     top: 20px;
     right: 20px;
     left: 20px;
-    z-index: 60000000;
+    z-index: 600000000;
     max-width: 100%;
+    backdrop-filter: blur(50px);
+     background: #c9bad618;
+     border-radius: 40px;
 }
 nav img{
    cursor: pointer; 
@@ -79,6 +82,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 60000;
 }
 
 nav ul{
@@ -86,8 +90,8 @@ nav ul{
     top: 140%;
     left: 0;
     right: 0;
-    background: #c9bad618;
-    backdrop-filter: blur(40px);
+    background: var(--bg);
+    box-shadow: 0 0 4px 4px #38126D;
     padding: 20px; 
     border-radius: 20px;
     display: flex;
@@ -96,7 +100,8 @@ nav ul{
     align-items: center ;
     transform: translateY(-700px);
     transition: .5s;
-    z-index: 4000000;
+    z-index: 9000000;
+    /* background-color: red; */
 }
 .active-nav{
     transform: translateY(0px)
