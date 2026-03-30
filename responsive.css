@@ -113,10 +113,22 @@
         display: none;
     }
     section.hero-section .container{
+        /* margin-inline: auto; */
+        display: flex;
         flex-direction: row;
         text-align: left;
         justify-content: center;
         align-items: center;
+    }
+    .hero-section .container .content{
+
+    }
+    .hero-section .container .image{
+        margin-left: auto;
+
+    }
+    section.hero-section .container p{
+        width: 60%;
     }
     section.contact-section .container{
         flex-direction : row;
@@ -164,6 +176,8 @@
         padding: 0;
         background-color: none;
         backdrop-filter: none;
+        background: transparent;
+        box-shadow: none;
     }
     header nav ul .child-one, header nav ul .child-two{
         display: flex;
