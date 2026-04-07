@@ -145,6 +145,10 @@
     section.about-section  p{
         max-width: 680px;
     }
+    .skills-section p, .skills-section h2{
+        width: 60%;
+        margin-inline: auto;
+    }
 
 }
 

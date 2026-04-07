@@ -21,24 +21,52 @@ window.onscroll = ()=>{
 
 const projectsArray = [
     {
-        name: "Consultant Machine",
-        title: "Machine Helping Company",
-        description: "A Professional Commercial and Residiential Cleaning Service Webisite, built to generate more customers. The website is responsive and mobile friendly.",
+        name: "Listing Hub",
+        title: "A Fully functional busines directory platform featuring categorized listings and custom dashboard. Built with HTML, CSS and Javascript, this project demostrates strong fundamentals in structuring scalable web applicatio and handling real-word user interactions.",
         links: {
-            view: "https//www.machine.com.ng",
-            code: "https//github/mahine.com.ng.git"
+            view: "https://directory-website-project.vercel.app/",
+            code: "https://github.com/jamal-web-dev/Directory-Website-Project.git"
         },
-        image: "images/work-one.png"
+        image: "images/directory-img.png"
     },
     {
-        name: "Consultant Machine",
-        title: "Machine Helping Company",
+        name: "Quiz Application",
+        title: "An interactive quiz application with a built-intimer, automatic submission and real-time result display. It showcases my ability to build dynamic, user-focused web apps with logic-driven funtionality. Developed using HTML, CSS and Javascript",
+        links: {
+            view: "https://quiz-app-one-peach-62.vercel.app/",
+            code: "https://github.com/jamal-web-dev/Quiz-App.git"
+        },
+        image: "images/quiz-img.png"
+    },
+    {
+        name: "Teddy Helping Hands LLC",
+        title: "Cleaning Services Website",
         description: "A Professional Commercial and Residiential Cleaning Service Webisite, built to generate more customers. The website is responsive and mobile friendly.",
         links: {
-            view: "https//www.machine.com.ng",
-            code: "https//github/mahine.com.ng.git"
+            view: "https://teddyhelpinghands.com/",
+            code: "https://teddyhelpinghands.com/"
         },
-        image: "images/work-one.png"
+        image: "images/teddy-img.jpg"
+    },
+    {
+        name: "Parada Sabillon LLC",
+        title: "Business Website",
+        description: "A responsive user-friendly Website Built for a professional Cleaning Services with the goal of generating more customers.",
+        links: {
+            view: "https://paradasabillon.com/",
+            code: "https://paradasabillon.com/"
+        },
+        image: "images/parad-img.jpg"
+    },
+    {
+        name: "Business Hub",
+        title: "Digital Presence for Entrepreneurs",
+        description: "A professional business websitep age designed to help entrepreneurs establish a strong online presence.Built with HTML, CSS and JavaScript",
+        links: {
+            view: "https://jamal-digital.github.io/Business-Consultant-Website/",
+            code: "https://github.com/Jamal-Digital/Business-Consultant-Website.git"
+        },
+        image: "images/bus-hub-img.png"
     }
 ];
 
