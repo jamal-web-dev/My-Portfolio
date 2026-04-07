@@ -22,7 +22,8 @@ window.onscroll = ()=>{
 const projectsArray = [
     {
         name: "Listing Hub",
-        title: "A Fully functional busines directory platform featuring categorized listings and custom dashboard. Built with HTML, CSS and Javascript, this project demostrates strong fundamentals in structuring scalable web applicatio and handling real-word user interactions.",
+        title: "Business Directory/Listing Website",
+        description: "A Fully functional busines directory platform featuring categorized listings and custom dashboard. Built with HTML, CSS and Javascript, this project demostrates strong fundamentals in structuring scalable web applicatio and handling real-word user interactions.",
         links: {
             view: "https://directory-website-project.vercel.app/",
             code: "https://github.com/jamal-web-dev/Directory-Website-Project.git"
@@ -31,7 +32,8 @@ const projectsArray = [
     },
     {
         name: "Quiz Application",
-        title: "An interactive quiz application with a built-intimer, automatic submission and real-time result display. It showcases my ability to build dynamic, user-focused web apps with logic-driven funtionality. Developed using HTML, CSS and Javascript",
+        title: "Web Application",
+        description: "An interactive quiz application with a built-intimer, automatic submission and real-time result display. It showcases my ability to build dynamic, user-focused web apps with logic-driven funtionality. Developed using HTML, CSS and Javascript",
         links: {
             view: "https://quiz-app-one-peach-62.vercel.app/",
             code: "https://github.com/jamal-web-dev/Quiz-App.git"
